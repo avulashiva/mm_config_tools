@@ -1,0 +1,7 @@
+mm_config_tools.settings_form:
+  title: 'Config allow override'
+  route_name: mm_config_tools.settings_form
+  description: 'Configure configurations which may be edited from the interface without being overwritten on config import.'
+  parent: system.admin_config_development
+  weight: 99
+

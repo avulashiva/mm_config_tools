@@ -1,0 +1,5 @@
+name: Configuration tools
+type: module
+description: Tools for importing and managing configuration
+core: 8.x
+package: Mediamonks

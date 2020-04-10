@@ -1,0 +1,9 @@
+{
+  "name": "mediamonks/mm_config_tools",
+  "type": "mediamonks-drupal-module",
+  "description": "Tools for importing and managing configuration",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {}
+}

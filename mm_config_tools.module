@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains mm_config_tools.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function mm_config_tools_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the mm_config_tools module.
+    case 'help.page.mm_config_tools':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Tools for importing and managing configuration') . '</p>';
+      return $output;
+
+    default:
+  }
+}
